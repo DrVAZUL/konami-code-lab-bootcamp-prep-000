@@ -19,7 +19,7 @@ function onKeyDownHandler(e) {
 
 function init() {
  const input = document.querySelector("body")
- input.addEventListner('keydown', onKeyDownHandler(e))
+ input.addEventListner('keydown', onKeyDownHandler())
  console.log(e.which)
 
 }
