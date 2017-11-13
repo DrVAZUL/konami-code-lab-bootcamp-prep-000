@@ -11,7 +11,7 @@ function init() {
      console.log(e.which)
      index++;
 
-   if(index === 10) {
+   if(index === code.length) {
      alert("Hurray!");
      index = 0
    }
