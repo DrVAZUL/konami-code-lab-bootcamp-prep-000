@@ -11,7 +11,7 @@ function init() {
      index++;
 
    if(index === 9) {
-     alert("Hurray!")
+     alert("Hurray!");
      index = 0
    }
  } else {
